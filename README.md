@@ -1,5 +1,4 @@
 <img width="1413" height="201" alt="Screenshot 2026-08-17 at 12 45 10 PM" src="https://github.com/user-attachments/assets/e7e443df-11c6-4469-b2ed-cf7aa2f9428d" />
-# CyberSpace/64
 
 CyberSpace/64 is a Commodore 64 BBS client for [CyberSpace.Online](https://cyberspace.online). It acts as a telnet bridge that translates CyberSpace's REST/Firebase API into real-time PETSCII, so a real (or emulated) C64 can log in and use it like a proper BBS featuring a live post feed, real-time chatrooms (via "CIRC"), private "C-Mail", real-time notifications, and more. All primary data lives on CyberSpace's servers â€” CS/64 just bridges the wire protocol. The only thing ever stored locally is an optional "remember me" record (your email plus a refresh token, not your password) so the client can auto-sign-in on future connections. :-)
 
